@@ -1,0 +1,50 @@
+{
+  "name": "ChatGPTA For Twitter",
+  "manifest_version": 3,
+  "version": "1.0.2",
+  "description": "Auto-generate tweets and comments with ChatGPT for Twitter",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "css": [
+        "css/inject.css"
+      ],
+      "js": [
+        "lib/inject.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "lib/inject_openai.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/openai-16.png",
+    "32": "icons/openai-32.png",
+    "48": "icons/openai-48.png",
+    "128": "icons/openai-128.png"
+  },
+  "background": {
+    "service_worker": "lib/background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/chatGPT.svg",
+        "icons/chatGPT_error.svg"
+      ],
+      "matches": [
+        "https://twitter.com/*"
+      ]
+    }
+  ]
+}
