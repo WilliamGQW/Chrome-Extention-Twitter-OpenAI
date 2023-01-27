@@ -6,7 +6,24 @@
 
 - ![](https://github.com/WilliamGQW/Chrome-Extention-Twitter-OpenAI/blob/main/icons/openai-32.png) ChatGPT
 - ![](https://skillicons.dev/icons?i=js&perline=10) JavaScript
- 
+- ![](https://skillicons.dev/icons?i=ts&perline=10) TypeScript
+- ![](https://skillicons.dev/icons?i=twitter&perline=10) Twitter API
+
+# Requirements:
+- Chrome (I'm using Version 109 for this project)
+- A Twitter account
+- An OpenAI account for ChatGPT
+
+# How to install and use this extension step-by-step?
+1. download source code to your machine
+2. open up `chrome://extensions/` with Chrome
+3. switch on `Developer mode` <img width="165" alt="image" src="https://user-images.githubusercontent.com/18302400/215185985-7dd56661-0c8a-4d51-a5be-5a08d4de15e9.png">
+4. click on `Load unpacked` and select the foler of source code <img width="382" alt="image" src="https://user-images.githubusercontent.com/18302400/215186131-933d24bf-39ac-4d82-a078-cbf271370e99.png">
+5. done
+
+
+
+
 
  
  
