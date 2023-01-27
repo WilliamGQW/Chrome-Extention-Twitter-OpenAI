@@ -1,7 +1,7 @@
 {
-  "name": "ChatGPTA For Twitter",
+  "name": "ChatGPT For Twitter",
   "manifest_version": 3,
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Auto-generate tweets and comments with ChatGPT for Twitter",
   "permissions": [
     "storage"
