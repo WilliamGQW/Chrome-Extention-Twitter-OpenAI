@@ -8,24 +8,30 @@
 - ![](https://skillicons.dev/icons?i=js&perline=10) JavaScript
 - ![](https://skillicons.dev/icons?i=ts&perline=10) TypeScript
 - ![](https://skillicons.dev/icons?i=twitter&perline=10) Twitter API
+- ![](https://skillicons.dev/icons?i=html&perline=10) HTML
+- ![](https://skillicons.dev/icons?i=css&perline=10) CSS
 
 # Requirements:
 - Chrome (I'm using Version 109 for this project)
 - A Twitter account
 - An OpenAI account for ChatGPT
 
-# How to install and use this extension step-by-step?
+# How to install this extension?
 1. download source code to your machine
 2. open up `chrome://extensions/` with Chrome
 3. switch on `Developer mode` <img width="165" alt="image" src="https://user-images.githubusercontent.com/18302400/215185985-7dd56661-0c8a-4d51-a5be-5a08d4de15e9.png">
 4. click on `Load unpacked` and select the foler of source code <img width="382" alt="image" src="https://user-images.githubusercontent.com/18302400/215186131-933d24bf-39ac-4d82-a078-cbf271370e99.png">
 5. done
 
+# How to use?
+1. After loading this extension to your chrome browser, go to Twitter and login with your account. Then, you should use the OpenAI icon in the toolbar. 
 
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/18302400/215228931-6e14ca5a-0211-4b25-8b9a-0e2421bc4f5c.png">
 
-
-
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/18302400/215228531-b3463b32-e91f-4c5f-8ac6-84653f225398.png">
  
  
+**Yea, I know. I hope this tech winter will end soon and I can find a job ASAP. Wish everyone the best in job search.**
+
 # Reference
 [tweetGPT](https://github.com/yaroslav-n/tweetGPT)
