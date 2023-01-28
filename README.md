@@ -28,10 +28,14 @@
 
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/18302400/215228931-6e14ca5a-0211-4b25-8b9a-0e2421bc4f5c.png">
 
+2. click on this icon, then a tweet or comment will be auto-generated.
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/18302400/215228531-b3463b32-e91f-4c5f-8ac6-84653f225398.png">
+ 
  
  
 **Yea, I know. I hope this tech winter will end soon and I can find a job ASAP. Wish everyone the best in job search.**
 
 # Reference
-[tweetGPT](https://github.com/yaroslav-n/tweetGPT)
+[tweetGPT](https://github.com/yaroslav-n/tweetGPT) developped by Yaroslav Nazarov.
+
+ 
