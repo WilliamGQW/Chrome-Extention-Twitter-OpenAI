@@ -7,10 +7,13 @@
     justify-content: center;
     align-items: center;
     user-select: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .gptIconWrapper:hover {
     background-color: rgba(29, 155, 240, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .gptIconWrapper.loading {
@@ -27,15 +30,17 @@
 
 .gptIcon.error {
     animation: error 0.5s linear 2;
+    color: #ff4b4b;
 }
 
 .gptSelector {
     cursor: pointer;
     padding: 10px 10px;
+    transition: background-color 0.3s;
 }
 
 .gptSelector:hover {
-    background-color: rgb(247, 249, 249);
+    background-color: rgba(212, 217, 216, 0.863);
 }
 
 .gptSelectorContainer {
@@ -47,8 +52,13 @@
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    box-shadow: 0 4px 12px rgba(101, 119, 134, 0.25), 0 2px 4px rgba(101, 119, 134, 0.15);
+    padding: 8px;
+    max-width: 250px;
+    transition: all 0.3s;
+    border: 1px solid rgba(101, 119, 134, 0.15);
 }
+
 
 @keyframes pulsate {
     from { opacity: 1; }

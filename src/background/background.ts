@@ -33,11 +33,6 @@ chrome.runtime.onMessage.addListener((message: Message, sender, sendResponse) =>
                     }
 
                     let finalText = text;
-                    // const savedSettings = await chrome.storage.local.get('isAddSignature')
-                    // const isAddSignature = savedSettings.isAddSignature ?? true;
-                    // if (isAddSignature) {
-                    //     finalText = text;
-                    // }
                     sendResponse(finalText);
                 },
                 onError,

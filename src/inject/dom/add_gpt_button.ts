@@ -4,26 +4,23 @@ const gptIconSrc = chrome.runtime.getURL("icons/chatGPT.svg");
 const gptIconErrorSrc = chrome.runtime.getURL("icons/chatGPT_error.svg");
 const tweetTypes: Array<{ emoji: string; type: string; }> = [
     { emoji: '👍', type: 'supportive' },
-    { emoji: '🎩', type: 'snarky' },
-    { emoji: '🌤️', type: 'optimistic' },
-    { emoji: '🔥', type: 'controversial' },
-    { emoji: '🤩', type: 'excited' },
-    { emoji: '🧠', type: 'smart' },
-    { emoji: '🤠', type: 'hillbilly' },
-    { emoji: '🏴‍☠️', type: 'pirate' },
+    { emoji: '😃', type: 'excited' },
+    { emoji: '😑', type: 'Unimpressed' },
+    { emoji: '😠', type: 'Angry' },
+    { emoji: '🤔', type: 'analytical ' },
     { emoji: '🤣', type: 'humorous' },
-    { emoji: '🙄', type: 'passive aggressive' }
+    { emoji: '🙄', type: 'passive aggressive'}
 ];
 
 export const addGPTButton = async (toolbarEl: Element, onClick: (type: string) => Promise<void>) => {
     const state = await chrome.storage.local.get('isRandomType');
     const isRandomType = state.isRandomType ?? false;
 
-    // if (isRandomType) {
-    addGPTButtonRandom(toolbarEl, onClick);
-    // } else {
-    //     addGPTButtonWithType(toolbarEl, onClick);
-    // }
+    if (isRandomType) {
+        addGPTButtonRandom(toolbarEl, onClick);
+    } else {
+        addGPTButtonWithType(toolbarEl, onClick);
+    }
 }
 
 const addGPTButtonRandom = (toolbarEl: Element, onClick: (type: string) => Promise<void>) => {
