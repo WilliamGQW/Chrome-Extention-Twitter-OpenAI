@@ -36,8 +36,4 @@
  
  
 **Wish everyone the best in job search.**
-
-# Reference
-Inspired by [tweetGPT](https://github.com/yaroslav-n/tweetGPT).
-
  
